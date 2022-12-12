@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+table {
+    margin-top: 1%;
+    width: 70%;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right: auto;
+}
+table, tr, th, td{
+    padding: 15px;
+    text-align: left;
+}
+tr{
+    height:50px;
+    font-size: large;
+    font-weight: bold;
+}
+th{
+    background-color: #0047A0;
+        color: white;
+}
+section span{
+    font-size: large;
+}
+.news{
+    margin-top: 10%;
+}
+
+section h1{
+    margin: 1%;
+}
+div.news div{
+    padding:10px;
+}
