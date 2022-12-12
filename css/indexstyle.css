@@ -57,11 +57,6 @@ section div.title {
     float: left;
 }
 
-/* section div.intro {
-    margin-left: 13%;
-    padding: 1px 16px;
-    float: left;
-} */
 div.title h1 {
     padding: 30px;
     text-align: center;
@@ -69,13 +64,11 @@ div.title h1 {
     margin:0;
 }
 
-/* Container for flexboxes */
 div.content {
     display: -webkit-flex;
     display: flex;
 }
 
-/* Style the navigation menu */
 div.content ul {
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -85,13 +78,11 @@ div.content ul {
     margin:0;
 }
 
-/* Style the list inside the menu */
 div.content nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-/* Style the content */
 article {
     flex: 10;
     padding: 20px;
